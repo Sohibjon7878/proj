@@ -5,3 +5,144 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5%;
+  background: #1876f2;
+}
+nav h3 {
+  color: #fff;
+}
+nav .dropdown button {
+  background: none;
+  border: none;
+}
+nav .dropdown button:hover {
+  background: #1876f2;
+}
+
+.nav-lef, .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.user i {
+  font-size: 30px;
+}
+
+.user {
+  margin: 15px;
+}
+
+.search {
+  background: #efefef;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.search input {
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  border: none;
+  background: transparent;
+}
+
+.online {
+  position: relative;
+}
+
+.online::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #41bd51;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
+
+.nav-left ul li {
+  list-style: none;
+  display: inline-block;
+}
+.nav-left ul li img {
+  width: 50px;
+  height: 40px;
+  margin-right: 10px;
+}
+.nav-left ul li i {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.coll {
+  margin-top: 30px;
+}
+.coll ul {
+  list-style: none;
+}
+.coll ul li {
+  display: inline-block;
+}
+.coll ul li a {
+  font-size: 14px;
+}
+.coll ul li h6 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.coll i {
+  margin: 0 7px;
+}
+.coll img {
+  width: 800px;
+  height: 400px;
+}
+.coll p {
+  margin-top: 20px;
+  text-align: justify;
+}
+.coll p a {
+  text-decoration: none;
+}
+
+.ramz {
+  position: relative;
+  top: 20%;
+  background: #ddd;
+}
+.ramz p:hover {
+  font-weight: 400;
+  background: rgba(85, 84, 84, 0.938);
+  border-left: 4px solid #000;
+}
+.ramz p a {
+  text-decoration: none;
+  color: #000;
+  padding-left: 8px;
+}
+.ramz h4 {
+  background: #343e55;
+  font-size: 20px;
+  padding: 8px 20px;
+  color: #fff;
+}
+.ramz .gerb-img {
+  height: 100px;
+}
+
+.mid {
+  width: 100%;
+  height: 50vh;
+  background: url(../img/yan.jpg);
+  background-size: cover;
+  background-position: 0 bottom;
+}

@@ -183,3 +183,27 @@ nav .dropdown button:hover {
 .nav-link .row ul li {
   list-style: none;
 }
+
+#bos {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  background: #1876f2;
+  width: 150px;
+  cursor: pointer;
+}
+#bos p {
+  margin: 5px 0 5px 20px;
+  color: #fff;
+}
+
+#ichi {
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+  background: #ddd;
+  width: 150px;
+  height: 300px;
+  cursor: pointer;
+  display: none;
+}

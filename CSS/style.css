@@ -146,3 +146,40 @@ nav .dropdown button:hover {
   background-size: cover;
   background-position: 0 bottom;
 }
+
+.nav-link h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: blue;
+  font-weight: bold;
+}
+.nav-link .row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link .row a {
+  text-decoration: none;
+  color: #000;
+}
+.nav-link .row a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: blue;
+}
+.nav-link .row img {
+  width: 100px;
+  height: 100px;
+  opacity: 0.6;
+}
+.nav-link .row img:hover {
+  opacity: 1;
+}
+.nav-link .row ul {
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.nav-link .row ul li {
+  list-style: none;
+}

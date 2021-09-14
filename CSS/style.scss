@@ -115,8 +115,9 @@ h3{
   }
  }
  .ramz{
-  position: relative;
-  top: 20%;background: #ddd;
+  position: sticky;
+  top: 0;
+  background: #ddd;
  p{
    &:hover{
      font-weight: 400;

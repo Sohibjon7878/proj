@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'icon';
+  src:  url('fonts/icon.eot?kvmtya');
+  src:  url('fonts/icon.eot?kvmtya#iefix') format('embedded-opentype'),
+    url('fonts/icon.ttf?kvmtya') format('truetype'),
+    url('fonts/icon.woff?kvmtya') format('woff'),
+    url('fonts/icon.svg?kvmtya#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-music:before {
+  content: "\f001";
+}
+.icon-envelope:before {
+  content: "\f003";
+}
+.icon-star:before {
+  content: "\f006";
+}
+.icon-user:before {
+  content: "\f007";
+}
+.icon-cog:before {
+  content: "\f013";
+}
+.icon-home:before {
+  content: "\f015";
+}
+.icon-download:before {
+  content: "\f019";
+}
+.icon-volume-down:before {
+  content: "\f027";
+}
+.icon-volume-up:before {
+  content: "\f028";
+}
+.icon-book:before {
+  content: "\f02d";
+}
+.icon-image:before {
+  content: "\f03e";
+}
+.icon-map:before {
+  content: "\f041";
+}
+.icon-eye:before {
+  content: "\f06e";
+}
+.icon-eye-slash:before {
+  content: "\f070";
+}
+.icon-calendar:before {
+  content: "\f073";
+}
+.icon-twitter:before {
+  content: "\f081";
+}
+.icon-phone:before {
+  content: "\f098";
+}
+.icon-feed:before {
+  content: "\f09e";
+}
+.icon-group:before {
+  content: "\f0c0";
+}
+.icon-list:before {
+  content: "\f0ca";
+}
+.icon-google:before {
+  content: "\f0d5";
+}
+.icon-folder-open:before {
+  content: "\f115";
+}
+.icon-instagram:before {
+  content: "\f16d";
+}
+.icon-graduation:before {
+  content: "\f19d";
+}
+.icon-facebook:before {
+  content: "\f230";
+}
+.icon-user-circle:before {
+  content: "\f2be";
+}
+.icon-telegram:before {
+  content: "\f2c6";
+}

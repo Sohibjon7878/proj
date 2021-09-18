@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 nav{
   display: flex;
@@ -29,6 +30,7 @@ h3{
   align-items: center;
 }
 .user i{
+
   font-size: 30px;
 }
 .user{
@@ -119,8 +121,10 @@ h3{
   top: 0;
   background: #ddd;
  p{
+  font-size: 14px;
+   padding:0 3px;
    &:hover{
-     font-weight: 400;
+     
     background: rgba(85, 84, 84, 0.938);
       border-left: 4px solid #000;
    }
@@ -155,7 +159,7 @@ h3{
      margin-top: 20px;
   text-align: center;
   font-size: 25px;
-  color: blue;
+  color: rgb(101, 135, 235);
   font-weight: bold;
   }
  
@@ -169,17 +173,14 @@ h3{
       color: #000;
       &:hover{
         text-decoration: underline;
-        font-weight: bold;
-        color: blue;
+       
       }
     }
       img{
+
         width: 100px;
         height: 100px;
-        opacity: 0.6;
-        &:hover{
-          opacity: 1;
-        }
+       
 
       } 
       ul{
@@ -187,8 +188,18 @@ h3{
         padding: 10px 0;
         li{
           list-style: none;
+          text-align: center;
         }
       }
   }
 }
 
+.slick-slide {
+  img {
+    width: 100%;
+  }
+}
+
+ul.sile {
+  padding: 0;
+}

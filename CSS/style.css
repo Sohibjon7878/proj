@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("main-font.css");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Bariol Regular";
 }
 
 nav {
@@ -11,7 +11,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 5px 5%;
-  background: #1876f2;
+  background: #5f27cd;
 }
 nav h3 {
   color: #fff;
@@ -21,7 +21,7 @@ nav .dropdown button {
   border: none;
 }
 nav .dropdown button:hover {
-  background: #1876f2;
+  background: #5f27cd;
 }
 
 .nav-lef, .nav-right {
@@ -74,7 +74,6 @@ nav .dropdown button:hover {
   display: inline-block;
 }
 .nav-left ul li img {
-  width: 50px;
   height: 40px;
   margin-right: 10px;
 }
@@ -188,4 +187,46 @@ nav .dropdown button:hover {
 
 ul.sile {
   padding: 0;
+}
+
+.box-title {
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin: 30px 0;
+  color: #5f27cd;
+  font-family: "Bariol Bold";
+}
+
+.mini-box {
+  margin-bottom: 50px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.mini-box .mini-title {
+  color: #5f27cd;
+  font-family: "Bariol Bold";
+  font-size: 1.2em;
+  margin: 10px 0;
+  background-color: #fff;
+  padding: 15px 0;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  right: 0;
+}
+.mini-box .mini-text {
+  transition: all 0.5s ease;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.mini-box:hover {
+  transition: all 0.5s ease;
+}
+.mini-box:hover .mini-text {
+  top: 60px;
+}
+.mini-box:hover .mini-title {
+  top: -10px;
 }
